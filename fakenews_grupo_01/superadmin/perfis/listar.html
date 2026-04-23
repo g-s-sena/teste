@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listar Perfis — SuperAdmin | Fake News</title>
+  <link rel="stylesheet" href="../../assets/css/estilo.css">
+</head>
+<body>
+<header class="cabecalho">
+  <div class="cabecalho-topo">
+    <span>⚙️ Painel SuperAdmin</span>
+    <a href="../../index.html">← Voltar ao portal</a>
+  </div>
+  <div class="cabecalho-marca">
+    <div class="logo-texto">FAKE<span>NEWS</span></div>
+    <div class="logo-subtitulo">Administração<br>SuperAdmin</div>
+  </div>
+</header>
+<div class="layout-admin">
+  <nav class="sidebar">
+    <div class="sidebar-titulo">Menu Admin</div>
+    <a href="../../superadmin/dashboard.html" class="">📊 Dashboard</a>
+<a href="../../superadmin/noticias/listar.html" class="">📰 Notícias</a>
+<a href="../../superadmin/usuarios/listar.html" class="">👥 Usuários</a>
+<a href="../../superadmin/cidades/listar.html" class="">🏙️ Cidades</a>
+<a href="../../superadmin/tags/listar.html" class="">🏷️ Tags</a>
+<a href="../../superadmin/perfis/listar.html" class="ativo">👤 Perfis</a>
+<a href="../../superadmin/uf/listar.html" class="">🗺️ UFs</a>
+<a href="../../superadmin/comentarios.html" class="">💬 Comentários</a>
+  </nav>
+  <main class="conteudo-admin">
+
+<div class="titulo-pagina">
+  <h1>Listar Perfis</h1>
+  <span class="rubrica">CRUD · Perfil</span>
+</div>
+<div class="flex-entre mb-3">
+  <input type="text" placeholder="Buscar..." style="padding:.6rem 1rem;border:2px solid var(--cinza-clar);width:300px;border-radius:var(--raio);">
+  <a href="criar.html" class="btn btn-primario">+ Novo(a) Perfil</a>
+</div>
+<div class="tabela-container">
+  <table class="tabela">
+    <thead><tr><th>#</th>
+<th>Nome</th>
+<th>Descrição</th>
+<th>Usuários</th>
+<th>Criado em</th><th>Ações</th></tr></thead>
+    <tbody>
+<tr><td>1</td><td>SuperAdmin</td><td>Acesso total ao sistema</td><td>1</td><td>01/01/2026</td><td class="acoes-tabela"><a href="exibir.html" class="btn btn-secundario btn-sm">Ver</a><a href="editar.html" class="btn btn-aviso btn-sm">Editar</a><a href="apagar.html" class="btn btn-perigo btn-sm">Apagar</a></td></tr><tr><td>2</td><td>Editor</td><td>Publicação e edição editorial</td><td>4</td><td>01/01/2026</td><td class="acoes-tabela"><a href="exibir.html" class="btn btn-secundario btn-sm">Ver</a><a href="editar.html" class="btn btn-aviso btn-sm">Editar</a><a href="apagar.html" class="btn btn-perigo btn-sm">Apagar</a></td></tr><tr><td>3</td><td>Autor</td><td>Criação de notícias</td><td>28</td><td>01/01/2026</td><td class="acoes-tabela"><a href="exibir.html" class="btn btn-secundario btn-sm">Ver</a><a href="editar.html" class="btn btn-aviso btn-sm">Editar</a><a href="apagar.html" class="btn btn-perigo btn-sm">Apagar</a></td></tr><tr><td>4</td><td>Leitor</td><td>Leitura e comentários</td><td>1.309</td><td>01/01/2026</td><td class="acoes-tabela"><a href="exibir.html" class="btn btn-secundario btn-sm">Ver</a><a href="editar.html" class="btn btn-aviso btn-sm">Editar</a><a href="apagar.html" class="btn btn-perigo btn-sm">Apagar</a></td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="paginacao mt-3">
+  <a href="#">«</a><span class="ativo">1</span><a href="#">2</a><a href="#">3</a><a href="#">»</a>
+</div>
+</div>
+
+<footer class="rodape">
+  <div class="rodape-grid">
+    <div class="rodape-col">
+      <h3>Fake News Portal</h3>
+      <a href="../../index.html">Home</a>
+      <a href="../../publico/busca-uf.html">Notícias por Estado</a>
+      <a href="../../publico/busca-tag.html">Notícias por Tag</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Acesso</h3>
+      <a href="../../publico/login.html">Entrar</a>
+      <a href="../../publico/cadastro.html">Criar conta</a>
+      <a href="../../publico/lembrar.html">Recuperar senha</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Informações</h3>
+      <p style="color:#aaa;font-size:.85rem;">Portal acadêmico de notícias.<br>Projeto — Grupo 01</p>
+    </div>
+  </div>
+  <div class="rodape-copy">© 2026 Fake News Portal · Grupo 01 · Todos os direitos reservados</div>
+</footer>
+</body>
+</html>

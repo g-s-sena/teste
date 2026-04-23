@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca por Tag — Fake News Portal</title>
+  <link rel="stylesheet" href="../assets/css/estilo.css">
+</head>
+<body>
+
+<header class="cabecalho">
+  <div class="cabecalho-topo">
+    <span>📅 Segunda-feira, 14 de Abril de 2026</span>
+    <div style="display:flex;gap:1rem;">
+      <a href="../publico/login.html">Entrar</a>
+      <a href="../publico/cadastro.html">Cadastrar</a>
+    </div>
+  </div>
+  <div class="cabecalho-marca">
+    <div>
+      <div class="logo-texto">FAKE<span>NEWS</span></div>
+    </div>
+    <div class="logo-subtitulo">Portal de Notícias<br>Grupo 01</div>
+  </div>
+  <nav class="nav-principal">
+    <ul>
+      <li><a href="../index.html" class="">Home</a></li>
+      <li><a href="../publico/busca-uf.html" class="">Por Estado</a></li>
+      <li><a href="../publico/busca-tag.html" class="ativo">Por Tag</a></li>
+      <li><a href="../publico/login.html" class="">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="conteudo-principal">
+
+<div class="titulo-pagina">
+  <h1>Notícias por Tag</h1>
+  <span class="rubrica">Filtrar por assunto</span>
+</div>
+<div style="background:var(--branco);border:1px solid var(--cinza-clar);padding:1.5rem;margin-bottom:2rem;box-shadow:var(--sombra);">
+  <p style="font-size:.88rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem;">Selecione uma ou mais tags:</p>
+  <div class="tags-cloud">
+    <span class="tag ativa">política</span>
+    <span class="tag">tecnologia</span>
+    <span class="tag">esportes</span>
+    <span class="tag">saúde</span>
+    <span class="tag">cultura</span>
+    <span class="tag">internacional</span>
+    <span class="tag">economia</span>
+    <span class="tag">educação</span>
+    <span class="tag">meio ambiente</span>
+    <span class="tag">ciência</span>
+    <span class="tag">entretenimento</span>
+    <span class="tag">segurança</span>
+  </div>
+  <div class="acoes-form mt-2">
+    <button class="btn btn-primario">Filtrar</button>
+    <button class="btn btn-secundario">Limpar</button>
+  </div>
+</div>
+<div class="titulo-pagina">
+  <h1 style="font-size:1.4rem;">Resultados: <em>política</em></h1>
+  <span class="rubrica">3 notícias encontradas</span>
+</div>
+<div class="grid-noticias">
+  <article class="card">
+    <div class="card-img-placeholder">📄</div>
+    <div class="card-corpo">
+      <span class="card-tag">Política</span>
+      <h2 class="card-titulo"><a href="detalhe-noticia.html">Congresso aprova PEC da sustentabilidade</a></h2>
+      <p class="card-resumo">Emenda constitucional passa em segundo turno com ampla maioria.</p>
+      <div class="card-meta"><span>👤 Ana Lima</span><span>🕐 hoje</span></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-img-placeholder">📄</div>
+    <div class="card-corpo">
+      <span class="card-tag">Política</span>
+      <h2 class="card-titulo"><a href="detalhe-noticia.html">Presidente sanciona lei de transparência</a></h2>
+      <p class="card-resumo">Nova legislação obriga publicação de gastos públicos em tempo real.</p>
+      <div class="card-meta"><span>👤 Carlos Melo</span><span>🕐 ontem</span></div>
+    </div>
+  </article>
+</div>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape-grid">
+    <div class="rodape-col">
+      <h3>Fake News Portal</h3>
+      <a href="../index.html">Home</a>
+      <a href="../publico/busca-uf.html">Notícias por Estado</a>
+      <a href="../publico/busca-tag.html">Notícias por Tag</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Acesso</h3>
+      <a href="../publico/login.html">Entrar</a>
+      <a href="../publico/cadastro.html">Criar conta</a>
+      <a href="../publico/lembrar.html">Recuperar senha</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Informações</h3>
+      <p style="color:#aaa;font-size:.85rem;">Portal acadêmico de notícias.<br>Projeto — Grupo 01</p>
+    </div>
+  </div>
+  <div class="rodape-copy">© 2026 Fake News Portal · Grupo 01 · Todos os direitos reservados</div>
+</footer>
+</body>
+</html>

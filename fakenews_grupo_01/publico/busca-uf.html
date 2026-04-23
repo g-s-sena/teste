@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca por Estado — Fake News Portal</title>
+  <link rel="stylesheet" href="../assets/css/estilo.css">
+</head>
+<body>
+
+<header class="cabecalho">
+  <div class="cabecalho-topo">
+    <span>📅 Segunda-feira, 14 de Abril de 2026</span>
+    <div style="display:flex;gap:1rem;">
+      <a href="../publico/login.html">Entrar</a>
+      <a href="../publico/cadastro.html">Cadastrar</a>
+    </div>
+  </div>
+  <div class="cabecalho-marca">
+    <div>
+      <div class="logo-texto">FAKE<span>NEWS</span></div>
+    </div>
+    <div class="logo-subtitulo">Portal de Notícias<br>Grupo 01</div>
+  </div>
+  <nav class="nav-principal">
+    <ul>
+      <li><a href="../index.html" class="">Home</a></li>
+      <li><a href="../publico/busca-uf.html" class="ativo">Por Estado</a></li>
+      <li><a href="../publico/busca-tag.html" class="">Por Tag</a></li>
+      <li><a href="../publico/login.html" class="">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="conteudo-principal">
+
+<div class="titulo-pagina">
+  <h1>Notícias por Estado</h1>
+  <span class="rubrica">Filtrar por UF</span>
+</div>
+<div class="form-container" style="margin-bottom:2rem;">
+  <div class="form-linha">
+    <div class="form-grupo">
+      <label for="uf">Selecione o Estado</label>
+      <select id="uf">
+        <option value="">Todos os estados</option>
+        <option>SP</option><option>RJ</option><option>MG</option>
+        <option>RS</option><option>PR</option><option>BA</option>
+        <option>PE</option><option>CE</option><option>GO</option>
+      </select>
+    </div>
+    <div class="form-grupo" style="display:flex;align-items:flex-end;">
+      <button class="btn btn-primario" style="width:100%;">Buscar</button>
+    </div>
+  </div>
+</div>
+<div class="grid-noticias">
+  <article class="card">
+    <div class="card-img-placeholder">📄</div>
+    <div class="card-corpo">
+      <span class="card-tag">São Paulo</span>
+      <h2 class="card-titulo"><a href="detalhe-noticia.html">Metrô de SP inaugura nova linha no centro</a></h2>
+      <p class="card-resumo">A nova linha conecta os bairros da Lapa ao Tatuapé com 12 estações.</p>
+      <div class="card-meta"><span>👤 Redação SP</span><span>🕐 hoje</span></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-img-placeholder">📄</div>
+    <div class="card-corpo">
+      <span class="card-tag">Rio de Janeiro</span>
+      <h2 class="card-titulo"><a href="detalhe-noticia.html">Prefeitura do Rio anuncia obras no porto</a></h2>
+      <p class="card-resumo">Investimento de R$ 500 milhões para revitalização da zona portuária carioca.</p>
+      <div class="card-meta"><span>👤 Redação RJ</span><span>🕐 ontem</span></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-img-placeholder">📄</div>
+    <div class="card-corpo">
+      <span class="card-tag">Minas Gerais</span>
+      <h2 class="card-titulo"><a href="detalhe-noticia.html">Festival de inverno de Ouro Preto recorde</a></h2>
+      <p class="card-resumo">O evento deste ano superou em 30% o número de visitantes do ano anterior.</p>
+      <div class="card-meta"><span>👤 Redação MG</span><span>🕐 há 3 dias</span></div>
+    </div>
+  </article>
+</div>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape-grid">
+    <div class="rodape-col">
+      <h3>Fake News Portal</h3>
+      <a href="../index.html">Home</a>
+      <a href="../publico/busca-uf.html">Notícias por Estado</a>
+      <a href="../publico/busca-tag.html">Notícias por Tag</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Acesso</h3>
+      <a href="../publico/login.html">Entrar</a>
+      <a href="../publico/cadastro.html">Criar conta</a>
+      <a href="../publico/lembrar.html">Recuperar senha</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Informações</h3>
+      <p style="color:#aaa;font-size:.85rem;">Portal acadêmico de notícias.<br>Projeto — Grupo 01</p>
+    </div>
+  </div>
+  <div class="rodape-copy">© 2026 Fake News Portal · Grupo 01 · Todos os direitos reservados</div>
+</footer>
+</body>
+</html>

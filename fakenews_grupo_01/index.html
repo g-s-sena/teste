@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home — Fake News Portal</title>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+
+<header class="cabecalho">
+  <div class="cabecalho-topo">
+    <span>📅 Segunda-feira, 14 de Abril de 2026</span>
+    <div style="display:flex;gap:1rem;">
+      <a href="publico/login.html">Entrar</a>
+      <a href="publico/cadastro.html">Cadastrar</a>
+    </div>
+  </div>
+  <div class="cabecalho-marca">
+    <div>
+      <div class="logo-texto">FAKE<span>NEWS</span></div>
+    </div>
+    <div class="logo-subtitulo">Portal de Notícias<br>Grupo 01</div>
+  </div>
+  <nav class="nav-principal">
+    <ul>
+      <li><a href="index.html" class="ativo">Home</a></li>
+      <li><a href="publico/busca-uf.html" class="">Por Estado</a></li>
+      <li><a href="publico/busca-tag.html" class="">Por Tag</a></li>
+      <li><a href="publico/login.html" class="">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="conteudo-principal">
+
+<div class="titulo-pagina">
+  <h1>Últimas Notícias</h1>
+  <span class="rubrica">Atualizado hoje</span>
+</div>
+
+<div class="barra-busca">
+  <input type="text" placeholder="Buscar notícias...">
+  <button>Buscar</button>
+</div>
+
+<div class="grid-noticias destaque">
+<article class="card grande">
+  <div class="card-img-placeholder">🗞️</div>
+  <div class="card-corpo">
+    <span class="card-tag">Política</span>
+    <h2 class="card-titulo"><a href="publico/detalhe-noticia.html">Governo anuncia novo pacote de medidas econômicas</a></h2>
+    <p class="card-resumo">A proposta inclui cortes de gastos e aumento de investimentos em infraestrutura.</p>
+    <div class="card-meta">
+      <span>👤 Redação</span>
+      <span>🕐 há 2 horas</span>
+      <span>🏷️ política</span>
+    </div>
+  </div>
+</article>
+<article class="card ">
+  <div class="card-img-placeholder">📄</div>
+  <div class="card-corpo">
+    <span class="card-tag">Tecnologia</span>
+    <h2 class="card-titulo"><a href="publico/detalhe-noticia.html">Startup brasileira lança aplicativo revolucionário</a></h2>
+    <p class="card-resumo">O app promete mudar a forma como os brasileiros interagem com serviços públicos.</p>
+    <div class="card-meta">
+      <span>👤 Redação</span>
+      <span>🕐 há 2 horas</span>
+      <span>🏷️ tecnologia</span>
+    </div>
+  </div>
+</article>
+<article class="card ">
+  <div class="card-img-placeholder">📄</div>
+  <div class="card-corpo">
+    <span class="card-tag">Esportes</span>
+    <h2 class="card-titulo"><a href="publico/detalhe-noticia.html">Seleção brasileira se prepara para o mundial</a></h2>
+    <p class="card-resumo">A comissão técnica anunciou a lista de convocados nesta segunda-feira.</p>
+    <div class="card-meta">
+      <span>👤 Redação</span>
+      <span>🕐 há 2 horas</span>
+      <span>🏷️ esportes</span>
+    </div>
+  </div>
+</article>
+<article class="card ">
+  <div class="card-img-placeholder">📄</div>
+  <div class="card-corpo">
+    <span class="card-tag">Saúde</span>
+    <h2 class="card-titulo"><a href="publico/detalhe-noticia.html">Pesquisadores descobrem nova vacina contra dengue</a></h2>
+    <p class="card-resumo">O estudo foi publicado em revista científica internacional de alto impacto.</p>
+    <div class="card-meta">
+      <span>👤 Redação</span>
+      <span>🕐 há 2 horas</span>
+      <span>🏷️ saúde</span>
+    </div>
+  </div>
+</article>
+<article class="card ">
+  <div class="card-img-placeholder">📄</div>
+  <div class="card-corpo">
+    <span class="card-tag">Cultura</span>
+    <h2 class="card-titulo"><a href="publico/detalhe-noticia.html">Festival de cinema nacional bate recorde de público</a></h2>
+    <p class="card-resumo">Mais de 500 mil pessoas visitaram as exibições em todo o país.</p>
+    <div class="card-meta">
+      <span>👤 Redação</span>
+      <span>🕐 há 2 horas</span>
+      <span>🏷️ cultura</span>
+    </div>
+  </div>
+</article>
+<article class="card ">
+  <div class="card-img-placeholder">📄</div>
+  <div class="card-corpo">
+    <span class="card-tag">Internacional</span>
+    <h2 class="card-titulo"><a href="publico/detalhe-noticia.html">Acordo climático enfrenta resistência em países emergentes</a></h2>
+    <p class="card-resumo">Negociações na ONU chegam a um ponto crítico sobre metas de emissões.</p>
+    <div class="card-meta">
+      <span>👤 Redação</span>
+      <span>🕐 há 2 horas</span>
+      <span>🏷️ internacional</span>
+    </div>
+  </div>
+</article>
+</div>
+
+<div class="paginacao mt-4">
+  <a href="#">«</a>
+  <span class="ativo">1</span>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">»</a>
+</div>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape-grid">
+    <div class="rodape-col">
+      <h3>Fake News Portal</h3>
+      <a href="index.html">Home</a>
+      <a href="publico/busca-uf.html">Notícias por Estado</a>
+      <a href="publico/busca-tag.html">Notícias por Tag</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Acesso</h3>
+      <a href="publico/login.html">Entrar</a>
+      <a href="publico/cadastro.html">Criar conta</a>
+      <a href="publico/lembrar.html">Recuperar senha</a>
+    </div>
+    <div class="rodape-col">
+      <h3>Informações</h3>
+      <p style="color:#aaa;font-size:.85rem;">Portal acadêmico de notícias.<br>Projeto — Grupo 01</p>
+    </div>
+  </div>
+  <div class="rodape-copy">© 2026 Fake News Portal · Grupo 01 · Todos os direitos reservados</div>
+</footer>
+</body>
+</html>
